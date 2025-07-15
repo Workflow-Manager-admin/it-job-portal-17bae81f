@@ -12,8 +12,34 @@ router = APIRouter(
 
 # In-memory user store for demonstration
 users = [
-    {"id": 1, "username": "alice", "email": "alice@email.com", "role": "candidate", "password": hash_password("password")},
-    {"id": 2, "username": "employerX", "email": "employer@email.com", "role": "employer", "password": hash_password("password")},
+    {
+        "id": 1,
+        "username": "alice",
+        "email": "alice@email.com",
+        "role": "candidate",
+        "password": hash_password("password"),
+    },
+    {
+        "id": 2,
+        "username": "employerX",
+        "email": "employer@email.com",
+        "role": "employer",
+        "password": hash_password("password"),
+    },
+    {
+        "id": 3,
+        "username": "bob",
+        "email": "bob@email.com",
+        "role": "candidate",
+        "password": hash_password("password123"),
+    },
+    {
+        "id": 4,
+        "username": "hiringpro",
+        "email": "hiringpro@email.com",
+        "role": "employer",
+        "password": hash_password("hiring456"),
+    },
 ]
 
 def find_user_by_username(username: str):

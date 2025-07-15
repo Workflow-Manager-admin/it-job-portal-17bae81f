@@ -14,8 +14,34 @@ router = APIRouter(
 # Sample in-memory job list for demo (replace with DB)
 jobs = [
     {
-        "id": 1, "title": "Backend Developer", "description": "Python/FastAPI backend", "location": "Remote",
-        "company": "TechSoft", "posted_by": 2, "skills": ["Python", "FastAPI"], "date_posted": datetime.utcnow(),
+        "id": 1,
+        "title": "Backend Developer",
+        "description": "Python/FastAPI backend working with REST APIs and databases.",
+        "location": "Remote",
+        "company": "TechSoft",
+        "posted_by": 2,
+        "skills": ["Python", "FastAPI"],
+        "date_posted": datetime.utcnow(),
+    },
+    {
+        "id": 2,
+        "title": "Frontend Engineer",
+        "description": "React developer needed for modern SaaS dashboard.",
+        "location": "London",
+        "company": "Webify Ltd",
+        "posted_by": 4,
+        "skills": ["JavaScript", "React", "CSS"],
+        "date_posted": datetime.utcnow(),
+    },
+    {
+        "id": 3,
+        "title": "DevOps Specialist",
+        "description": "Cloud automation and CI pipeline expert. Docker experience required.",
+        "location": "San Francisco",
+        "company": "CloudOps Inc.",
+        "posted_by": 2,
+        "skills": ["Docker", "Kubernetes", "CI/CD"],
+        "date_posted": datetime.utcnow(),
     }
 ]
 

@@ -13,6 +13,8 @@ router = APIRouter(
 users = [
     {"id": 1, "username": "alice", "email": "alice@email.com", "role": "candidate"},
     {"id": 2, "username": "employerX", "email": "employer@email.com", "role": "employer"},
+    {"id": 3, "username": "bob", "email": "bob@email.com", "role": "candidate"},
+    {"id": 4, "username": "hiringpro", "email": "hiringpro@email.com", "role": "employer"},
 ]
 
 # PUBLIC_INTERFACE

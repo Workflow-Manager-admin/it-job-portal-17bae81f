@@ -1,3 +1,9 @@
+"""
+Regenerate the OpenAPI spec for the current FastAPI app including all seeded demo endpoints and data.
+
+Usage: Run this script after changing routes or models to refresh /docs (interfaces/openapi.json).
+"""
+
 import json
 import os
 
